@@ -1,3 +1,8 @@
+import os
+os.system("pip install streamlit-autorefresh >nul 2>&1")
+
+from streamlit_autorefresh import st_autorefresh
+
 import streamlit as st
 import pandas as pd
 import os
